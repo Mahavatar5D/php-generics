@@ -31,10 +31,13 @@
     }
   },
   "scripts": {
-    "stan": "vendor/bin/phpstan --xdebug analyse --level 8 src tests",
-    "salm": "vendor/bin/psalm --no-cache --show-info=true --php-version=8.1 --config=psalm.xml"
+    "stan":   "vendor/bin/phpstan --xdebug analyse --level 8 src tests helpers",
+    "salm":   "vendor/bin/psalm --no-cache --show-info=true --php-version=8.1 --config=psalm.xml",
+    "salter": "vendor/bin/psalter --no-cache --issues=all --php-version=8.1 --config=psalm.xm"
   },
   "scripts-descriptions": {
-    "stan": "Run static analysis with phpstan"
+    "stan":   "Run static analysis using phpstan",
+    "salm":   "Run static analysis using psalm",
+    "salter": "Fixing code using psalm"
   }
 }
