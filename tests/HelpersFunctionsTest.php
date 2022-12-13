@@ -5,6 +5,7 @@ namespace App\Tests;
 use App\A;
 use PHPUnit\Framework\TestCase;
 
+/** @psalm-suppress PropertyNotSetInConstructor **/
 class HelpersFunctionsTest extends TestCase
 {
     public function testArrayFirst(): void

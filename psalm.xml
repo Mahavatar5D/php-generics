@@ -13,10 +13,11 @@
             <directory name="vendor" />
         </ignoreFiles>
     </projectFiles>
+
     <issueHandlers>
         <PropertyNotSetInConstructor>
             <errorLevel type="suppress">
-                <directory name="tests"/>
+                <directory name="./tests"/>
             </errorLevel>
         </PropertyNotSetInConstructor>
         <DuplicateFunction errorLevel="suppress" />

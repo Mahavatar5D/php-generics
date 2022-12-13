@@ -33,11 +33,11 @@
   "scripts": {
     "stan":   "vendor/bin/phpstan --xdebug analyse --level 8 src tests helpers",
     "salm":   "vendor/bin/psalm --no-cache --show-info=true --php-version=8.1 --config=psalm.xml",
-    "salter": "vendor/bin/psalter --no-cache --issues=all --php-version=8.1 --config=psalm.xm"
+    "salter": "vendor/bin/psalter --no-cache --issues=all --php-version=8.1 --config=psalm.xml"
   },
   "scripts-descriptions": {
     "stan":   "Run static analysis using phpstan",
     "salm":   "Run static analysis using psalm",
-    "salter": "Fixing code using psalm"
+    "salter": "Fix code using psalm"
   }
 }
